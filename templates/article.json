@@ -22,5 +22,20 @@
             "block_order": ["thumbnail", "title", "published_date", "author", "content"]
         }
     },
-    "order": ["template"]
+    "block_order": [
+        "5a28c5bc-f23d-4e48-81e6-32e1c9ea9017",
+        "a4f93684-8c20-47b2-9347-d87f5a715778",
+        "4aa9be61-5c3e-4c4c-8c89-34b10bc0d80e",
+        "514f5544-a280-4c78-b5a0-afac7aee781a",
+        "55378b1b-be84-4394-8986-a6807b2397fd"
+    ],
+    "settings": {
+        "enable_author": true,
+        "enable_published_date": true
+    }
+}
+},
+"order": [
+    "template"
+]
 }
