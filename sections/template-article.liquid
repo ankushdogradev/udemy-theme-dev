@@ -66,7 +66,7 @@
                 {% endpaginate %}
             </div>
         {% else %}
-            <div class="flex items-center justify-center">
+            <div class="flex justify-center">
                 There are no comments in this article
             </div>
         {% endif %}
@@ -131,16 +131,13 @@
 <script type="application/ld+json">
 
 [36mLine: 1[0m
-[31m{[0m
-[31m    "@context": "http://schema.org",[0m
-[31m    "@type": "BlogPosting",[0m
-[31m    "headline": {{ article.title | json }},[0m
-[31m    "articleBody": {{ article.content | strip_html | json }},{% if article.excerpt != blank %}[0m
-[31m        "description" : {{ article.excerpt | strip_html | json }},{% endif %}[0m
-[31m    {% if article.image %}[0m
-
-[36mLine: 21[0m
-[32m(empty line)[0m
+[31m[36 mLine : 1 [[0m
+[31m        0 m [[0m
+[31m            31 m {[0m
+[31m                [[0m
+[31m                    0 m [[0m
+[31m                        31 m "@context" : "http://schema.org",[0m
+[31m                        [[0m
 </script>
 
 {% schema %}
